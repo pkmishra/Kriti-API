@@ -1,0 +1,17 @@
+{
+  "author": "Pradeep Kumar Mishra",
+  "name": "kriti-api",
+  "description": "The Service that handles all Data of the Site. All the other services and servers access this service to retrieve any data when needed.",
+  "version": "0.0.1",
+  "homepage": "www.comingsoon.com",
+  "main": "server.js",
+  "dependencies": {
+    "restify": ">= 1.4.3",
+    "restify-version": ">=0.0.2"
+    },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

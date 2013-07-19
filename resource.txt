@@ -1,0 +1,37 @@
+baseurl : api.kriti.com/v1
+resources:
+
+
+url - /books
+action - get all books, delete all books
+
+url - /books?fields=xxx,yyy&&filter=yyy&offset=a&limit=b&type=json
+action - get all books with specified fields only and with applied
+filter. offset and filers have been used for pagination. type is used
+for returned response type
+
+url - /books/:id
+action - get book with id, delete book with id, put book with id. Futher
+fields filter can be applied
+
+other urls - /books/:id/chapters
+             /books/:id/chapters/:id
+             /books/:id/chapters/:id/sections
+             /books/:id/chapters/:id/sections/:id
+             /books/:id/chapters/:id/sections/:id/pages
+             /books/:id/chapters/:id/sections/:id/pages/:id
+             /books/:id/stats
+
+url - /users?fields=x,y&filter=xx&offset=a&limit=b&type=json
+      /users/:id
+
+
+Asset resources
+
+url - /users/:id/assets?filter=
+action - get all media, delete all media. Filter can also be applied
+
+url - /users/:id/assets/:id
+
+
+
